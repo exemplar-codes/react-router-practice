@@ -8,7 +8,7 @@ export default function QuoteDetail() {
     <>
       <h1>Quote Detail Page</h1>
       <p>Quote ID: {quoteId}</p>
-      <Route path={`/quotes/${quoteId}/comments`} sensitive>
+      <Route path={`/quotes/${quoteId}/comments`}>
         <Comments />
       </Route>
     </>
