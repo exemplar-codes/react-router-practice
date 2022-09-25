@@ -1,3 +1,3 @@
 export default function NewQuote() {
-  return <h1>New Quote</h1>;
+  return <h1>New Quote Page</h1>;
 }
